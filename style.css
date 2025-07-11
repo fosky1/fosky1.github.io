@@ -1,20 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333; /* Dark gray text */
+        }
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+            border: 5px solid #ffffff; /* White background inside the border */
+            padding: 20px;
+            color: white;
+            background-color: #00796b; /* Turquoise */
+}
+/* Main content styles */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 footer {
     text-align: center;
-    padding: 1rem 0;
-    background: #333;
-    color: #fff;
+    padding: 10px;
+    background-color: #00796b; /* Turquoise */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Link styles */
+a {
+    color: #00796b; /* Turquoise links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004d40; /* Darker turquoise on hover */
+    text-decoration: underline;
 }
