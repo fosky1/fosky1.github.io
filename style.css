@@ -309,8 +309,8 @@ footer p {margin: 0; }
 
 /* ==== PHOTO ===== */
 .photo-wrapper {
-    width: 120px;
-    padding-top: 120px;
+    width: 100%;
+    padding-top: 100%;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 2rem;
